@@ -9,6 +9,7 @@ import (
 
 type LexTokenType int
 type Status int
+type stratTable []Status
 
 const (
 	TpAny LexTokenType = iota
